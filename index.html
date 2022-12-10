@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <section class="wrapper">
+       <div class="container">
+           <div class="container-header">
+               <h2 class="passGen">Passwords generated</h2>
+           </div>
+           <div class="password-container">
+               <div class="cont1">
+                   <div class="pass1">
+                    <p>password length</p>
+                   </div>
+                   <div class="input1">
+                       <input type="number" name="number" min="6" max="12" class="lent">
+                   </div>
+               </div>
+               <div class="cont1">
+                <div class="pass1">
+                 <p>uppercase letters</p>
+                </div>
+                <div class="input1">
+                    <input type="checkbox" name="checkbox"  class="upperEl">
+                </div>
+            </div>
+            <div class="cont1">
+                <div class="pass1">
+                 <p>lowercase letters</p>
+                </div>
+                <div class="input1">
+                    <input type="checkbox" name="checkbox" class="lowerEl">
+                </div>
+            </div>
+            <div class="cont1">
+                <div class="pass1">
+                 <p>numbers</p>
+                </div>
+                <div class="input1">
+                    <input type="checkbox" name="checkbox" class="numberEl">
+                </div>
+            </div>
+            <div class="cont1">
+                <div class="pass1">
+                 <p>symbols</p>
+                </div>
+                <div class="input1">
+                    <input type="checkbox" name="checkbox" class="symbEl">
+                </div>
+            </div>
+           </div>
+           <div class="btn">
+        <button class="generateEl">generate password</button>
+       </div>
+    </div>
+   </section>
+    <script src="script.js"></script>
+</body>
+</html>
